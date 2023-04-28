@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-17T09:26:38Z" name="Default suite" finished-at="2023-04-17T09:27:35Z" duration-ms="56718">
+  <suite started-at="2023-04-20T07:42:04Z" name="Default suite" finished-at="2023-04-20T07:43:18Z" duration-ms="74341">
     <groups>
     </groups>
-    <test started-at="2023-04-17T09:26:38Z" name="Default test" finished-at="2023-04-17T09:27:35Z" duration-ms="56718">
-      <class name="Webdrive.Topic_04_Run_On_Browner">
-        <test-method signature="TC_01_Url()[pri:0, instance:Webdrive.Topic_04_Run_On_Browner@3bf7ca37]" started-at="2023-04-17T09:26:38Z" name="TC_01_Url" finished-at="2023-04-17T09:26:59Z" duration-ms="21162" status="PASS">
+    <test started-at="2023-04-20T07:42:04Z" name="Default test" finished-at="2023-04-20T07:43:18Z" duration-ms="74341">
+      <class name="Webdrive.Topic_05_Web_Browser_Part2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:42:04Z" name="beforeClass" finished-at="2023-04-20T07:42:16Z" duration-ms="12602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Url()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:42:16Z" name="TC_01_Url" finished-at="2023-04-20T07:42:33Z" duration-ms="17053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Url -->
-        <test-method signature="TC_02_Logo()[pri:0, instance:Webdrive.Topic_04_Run_On_Browner@3bf7ca37]" started-at="2023-04-17T09:26:59Z" name="TC_02_Logo" finished-at="2023-04-17T09:27:35Z" duration-ms="35457" status="PASS">
+        <test-method signature="TC_02_Title()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:42:33Z" name="TC_02_Title" finished-at="2023-04-20T07:42:44Z" duration-ms="10488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_Logo -->
-      </class> <!-- Webdrive.Topic_04_Run_On_Browner -->
+        </test-method> <!-- TC_02_Title -->
+        <test-method signature="TC_03_Navigate_Function()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:42:44Z" name="TC_03_Navigate_Function" finished-at="2023-04-20T07:43:05Z" duration-ms="21111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Navigate_Function -->
+        <test-method signature="TC_04_getPageSource()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:43:05Z" name="TC_04_getPageSource" finished-at="2023-04-20T07:43:14Z" duration-ms="9406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_getPageSource -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Webdrive.Topic_05_Web_Browser_Part2@45c7e403]" started-at="2023-04-20T07:43:14Z" name="afterClass" finished-at="2023-04-20T07:43:18Z" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Webdrive.Topic_05_Web_Browser_Part2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
