@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Webdrive.Topic_05_Web_Browser_Part2">
+      <class name="Webdrive.Topic_13_Web_Popup_IN_NOT_DOM">
         <methods>
-          <include name="afterClass"/>
+          <include name="TC_03_Fixed_Popup1"/>
           <include name="beforeClass"/>
-          <include name="TC_02_Title"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- Webdrive.Topic_05_Web_Browser_Part2 -->
+      </class> <!-- Webdrive.Topic_13_Web_Popup_IN_NOT_DOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
